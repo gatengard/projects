@@ -21,4 +21,4 @@ print ("название курса -", course)
 timeOfHoweWorkInMinuts = (time * 60) / Quantiti
 timeOfHomework = time / Quantiti
 print("среднее время выполнения задачи", timeOfHoweWorkInMinuts, "мин")
-print("Курс:",course, ",Всего задач:", Quantiti, ",затрачено часов:",time, ",среднее время выолнения",timeOfHomework, "часа")
+print("Курс:",course, ",Всего задач:", Quantiti, ",затрачено часов:",time, ",среднее время выполнения",timeOfHomework, "часа")
