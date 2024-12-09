@@ -12,14 +12,15 @@
 # Для названия переменных используйте только: латинские буквы, не начинайте запись с числа, пишите в змеином регистре(разделяя слова символом '_')
 # Пробелы между словами и символами ':' ',' можно ставить на своё усмотрение.
 
-Quantiti = 12
-print ("Количество выполненных ДЗ =", Quantiti, "шт")
+quantiti = 12
+print ("Количество выполненных ДЗ =", quantiti, "шт")
 time = 1.5
 print("количество затраченных часов =",time)
 course = "python"
 print ("название курса -", course)
-timeOfHoweWorkInMinuts = (time * 60) / Quantiti
-timeOfHomework = time / Quantiti
+timeOfHoweWorkInMinuts = (time * 60) / quantiti
+timeOfHomework = time / quantiti
 print("среднее время выполнения задачи", timeOfHoweWorkInMinuts, "мин")
 
-print("Курс:",course, ",Всего задач:", Quantiti, ",затрачено часов:",time, ",среднее время выполнения",timeOfHomework, "часа")
+print("Курс:",course, ",Всего задач:", quantiti, ",затрачено часов:",time, ",среднее время выполнения",timeOfHomework, "часа")
+print(f'Курс: {course}, Всего задач: {quantiti}, Затрачено часов: {time}, Среднее время выполнения: {timeOfHomework} часа')
