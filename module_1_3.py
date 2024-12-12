@@ -12,10 +12,10 @@
 #   - Создайте переменную is_student и присвойте ей значение True (логическое значение).
 #   - Выведите значение переменной is_student на экран.
 name = 'Alex'
-print (name)
+print(name)
 age = 24
-print (age)
+print(age)
 new_age = 25
-print (new_age)
+print(new_age)
 is_student = True
-print (is_student)
+print(is_student)
