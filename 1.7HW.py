@@ -6,7 +6,7 @@ my_dict = {sorted_my_st[0]:round(sum(grades[0])/(len(grades[0])),1),
       sorted_my_st[2]:round(sum(grades[2])/(len(grades[2])),1),
       sorted_my_st[3]:round(sum(grades[3])/(len(grades[3])),1),
       sorted_my_st[4]:round(sum(grades[4])/(len(grades[4])),1)}
-print(sorted_my_st)
+print(my_dict)
 name = input('Введите имя ученика: ')
 print(f'Средняя оценка {name} = {my_dict[name]}')
 
